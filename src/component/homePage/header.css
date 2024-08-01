@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Adjust padding as needed */
+  }
+  
+  .logo {
+    flex: 1; /* Allows the logo to take available space */
+  }
+  
+  .logo-image {
+    height: 50px; /* Adjust height as needed */
+    width: auto;  /* Maintains aspect ratio */
+    border-radius: 50px;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    margin: 0 10px; /* Space between navigation items */
+    text-decoration: none;
+    color: #000; /* Adjust color as needed */
+  }
+  
+  .navbar-brand.active {
+    font-weight: bold; /* Highlight the active link */
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-outline {
+    margin-right: 5px; /* Space between input and button */
+  }
+  
+  .form-control {
+    border-radius: 0; /* Remove border-radius to match button */
+  }
+  
+  .btn-primary {
+    margin-left: 5px; /* Space between input and button */
+  }
+  
