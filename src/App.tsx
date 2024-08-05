@@ -9,6 +9,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Register from './component/Register/register';
 import Footer from './component/homePage/footer';
 import Tree from './component/Tree/tree';
+import Update from './component/update/update';
 
 
 
@@ -24,7 +25,10 @@ const App: React.FC = () => {
           <Route path='/register' element={<Register />}/>
           <Route path='/homepage' element={<Homepage />}/>
           <Route path='/footer'element={<Footer/>}/>
-          <Route path='/tree'element={<Tree />}/>
+          {/* <Route path='/tree'element={<Tree />}/> */}
+          <Route path='/tree' element={<Tree />}/>
+          <Route path='/update/:id' element={<Update />}/>
+
         </Routes>
       </div>
     </Router>

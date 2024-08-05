@@ -46,10 +46,12 @@ const Register: React.FC = () => {
                         <input type="number" id='reportingto' className='form-control' value={reportingId ?? ''} onChange={handleChange} />
                     </div>
                 </div>
-                <button type='submit'>Register</button>
+                <button type='submit'><a className='navbar-brand' href='/tree'>Register</a></button>
             </form>
         </div>
     );
 };
+
+
 
 export default Register;

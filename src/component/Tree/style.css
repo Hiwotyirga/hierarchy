@@ -1,0 +1,19 @@
+.tree-node {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.node-content {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.children {
+    margin-left: 20px;
+}
+
+.organization-tree {
+    font-family: Arial, sans-serif;
+}
